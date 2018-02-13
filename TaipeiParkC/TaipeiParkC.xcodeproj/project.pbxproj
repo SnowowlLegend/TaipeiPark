@@ -7,29 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		79D87C1C2021CD69005386E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D87C1B2021CD69005386E7 /* AppDelegate.m */; };
-		79D87C1F2021CD69005386E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D87C1E2021CD69005386E7 /* ViewController.m */; };
-		79D87C222021CD69005386E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D87C202021CD69005386E7 /* Main.storyboard */; };
-		79D87C242021CD69005386E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D87C232021CD69005386E7 /* Assets.xcassets */; };
-		79D87C272021CD69005386E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D87C252021CD69005386E7 /* LaunchScreen.storyboard */; };
-		79D87C2A2021CD69005386E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D87C292021CD69005386E7 /* main.m */; };
+		791A640220297B4E0005D63D /* ParkListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 791A640120297B4E0005D63D /* ParkListTableViewCell.m */; };
+		791A64052029A4BD0005D63D /* ParkDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 791A64042029A4BD0005D63D /* ParkDetailViewController.m */; };
+		791A64082029C3E60005D63D /* ParkCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 791A64072029C3E60005D63D /* ParkCollectionViewCell.m */; };
+		79D87C5C2021D185005386E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D87C5B2021D185005386E7 /* AppDelegate.m */; };
+		79D87C5F2021D185005386E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D87C5E2021D185005386E7 /* ViewController.m */; };
+		79D87C622021D185005386E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D87C602021D185005386E7 /* Main.storyboard */; };
+		79D87C642021D185005386E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79D87C632021D185005386E7 /* Assets.xcassets */; };
+		79D87C672021D185005386E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D87C652021D185005386E7 /* LaunchScreen.storyboard */; };
+		79D87C6A2021D185005386E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79D87C692021D185005386E7 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		79D87C172021CD69005386E7 /* TaipeiParkC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiParkC.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		79D87C1A2021CD69005386E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		79D87C1B2021CD69005386E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		79D87C1D2021CD69005386E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		79D87C1E2021CD69005386E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		79D87C212021CD69005386E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		79D87C232021CD69005386E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		79D87C262021CD69005386E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		79D87C282021CD69005386E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		79D87C292021CD69005386E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		791A640020297B4E0005D63D /* ParkListTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkListTableViewCell.h; sourceTree = "<group>"; };
+		791A640120297B4E0005D63D /* ParkListTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkListTableViewCell.m; sourceTree = "<group>"; };
+		791A64032029A4BD0005D63D /* ParkDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkDetailViewController.h; sourceTree = "<group>"; };
+		791A64042029A4BD0005D63D /* ParkDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkDetailViewController.m; sourceTree = "<group>"; };
+		791A64062029C3E60005D63D /* ParkCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ParkCollectionViewCell.h; sourceTree = "<group>"; };
+		791A64072029C3E60005D63D /* ParkCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParkCollectionViewCell.m; sourceTree = "<group>"; };
+		79D87C572021D185005386E7 /* TaipeiParkC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaipeiParkC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D87C5A2021D185005386E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79D87C5B2021D185005386E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79D87C5D2021D185005386E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79D87C5E2021D185005386E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79D87C612021D185005386E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79D87C632021D185005386E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		79D87C662021D185005386E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		79D87C682021D185005386E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79D87C692021D185005386E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		79D87C142021CD69005386E7 /* Frameworks */ = {
+		79D87C542021D185005386E7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,34 +48,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		79D87C0E2021CD69005386E7 = {
+		79D87C4E2021D185005386E7 = {
 			isa = PBXGroup;
 			children = (
-				79D87C192021CD69005386E7 /* TaipeiParkC */,
-				79D87C182021CD69005386E7 /* Products */,
+				79D87C592021D185005386E7 /* TaipeiParkC */,
+				79D87C582021D185005386E7 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		79D87C182021CD69005386E7 /* Products */ = {
+		79D87C582021D185005386E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				79D87C172021CD69005386E7 /* TaipeiParkC.app */,
+				79D87C572021D185005386E7 /* TaipeiParkC.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		79D87C192021CD69005386E7 /* TaipeiParkC */ = {
+		79D87C592021D185005386E7 /* TaipeiParkC */ = {
 			isa = PBXGroup;
 			children = (
-				79D87C1A2021CD69005386E7 /* AppDelegate.h */,
-				79D87C1B2021CD69005386E7 /* AppDelegate.m */,
-				79D87C1D2021CD69005386E7 /* ViewController.h */,
-				79D87C1E2021CD69005386E7 /* ViewController.m */,
-				79D87C202021CD69005386E7 /* Main.storyboard */,
-				79D87C232021CD69005386E7 /* Assets.xcassets */,
-				79D87C252021CD69005386E7 /* LaunchScreen.storyboard */,
-				79D87C282021CD69005386E7 /* Info.plist */,
-				79D87C292021CD69005386E7 /* main.m */,
+				791A64062029C3E60005D63D /* ParkCollectionViewCell.h */,
+				791A64072029C3E60005D63D /* ParkCollectionViewCell.m */,
+				79D87C5A2021D185005386E7 /* AppDelegate.h */,
+				79D87C5B2021D185005386E7 /* AppDelegate.m */,
+				79D87C5D2021D185005386E7 /* ViewController.h */,
+				79D87C5E2021D185005386E7 /* ViewController.m */,
+				79D87C602021D185005386E7 /* Main.storyboard */,
+				791A64032029A4BD0005D63D /* ParkDetailViewController.h */,
+				791A64042029A4BD0005D63D /* ParkDetailViewController.m */,
+				791A640020297B4E0005D63D /* ParkListTableViewCell.h */,
+				791A640120297B4E0005D63D /* ParkListTableViewCell.m */,
+				79D87C632021D185005386E7 /* Assets.xcassets */,
+				79D87C652021D185005386E7 /* LaunchScreen.storyboard */,
+				79D87C682021D185005386E7 /* Info.plist */,
+				79D87C692021D185005386E7 /* main.m */,
 			);
 			path = TaipeiParkC;
 			sourceTree = "<group>";
@@ -74,13 +89,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		79D87C162021CD69005386E7 /* TaipeiParkC */ = {
+		79D87C562021D185005386E7 /* TaipeiParkC */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 79D87C2D2021CD69005386E7 /* Build configuration list for PBXNativeTarget "TaipeiParkC" */;
+			buildConfigurationList = 79D87C6D2021D185005386E7 /* Build configuration list for PBXNativeTarget "TaipeiParkC" */;
 			buildPhases = (
-				79D87C132021CD69005386E7 /* Sources */,
-				79D87C142021CD69005386E7 /* Frameworks */,
-				79D87C152021CD69005386E7 /* Resources */,
+				79D87C532021D185005386E7 /* Sources */,
+				79D87C542021D185005386E7 /* Frameworks */,
+				79D87C552021D185005386E7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -88,25 +103,25 @@
 			);
 			name = TaipeiParkC;
 			productName = TaipeiParkC;
-			productReference = 79D87C172021CD69005386E7 /* TaipeiParkC.app */;
+			productReference = 79D87C572021D185005386E7 /* TaipeiParkC.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		79D87C0F2021CD69005386E7 /* Project object */ = {
+		79D87C4F2021D185005386E7 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Snowowl;
 				TargetAttributes = {
-					79D87C162021CD69005386E7 = {
+					79D87C562021D185005386E7 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 79D87C122021CD69005386E7 /* Build configuration list for PBXProject "TaipeiParkC" */;
+			buildConfigurationList = 79D87C522021D185005386E7 /* Build configuration list for PBXProject "TaipeiParkC" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,55 +129,58 @@
 				en,
 				Base,
 			);
-			mainGroup = 79D87C0E2021CD69005386E7;
-			productRefGroup = 79D87C182021CD69005386E7 /* Products */;
+			mainGroup = 79D87C4E2021D185005386E7;
+			productRefGroup = 79D87C582021D185005386E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				79D87C162021CD69005386E7 /* TaipeiParkC */,
+				79D87C562021D185005386E7 /* TaipeiParkC */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		79D87C152021CD69005386E7 /* Resources */ = {
+		79D87C552021D185005386E7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D87C272021CD69005386E7 /* LaunchScreen.storyboard in Resources */,
-				79D87C242021CD69005386E7 /* Assets.xcassets in Resources */,
-				79D87C222021CD69005386E7 /* Main.storyboard in Resources */,
+				79D87C672021D185005386E7 /* LaunchScreen.storyboard in Resources */,
+				79D87C642021D185005386E7 /* Assets.xcassets in Resources */,
+				79D87C622021D185005386E7 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		79D87C132021CD69005386E7 /* Sources */ = {
+		79D87C532021D185005386E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79D87C1F2021CD69005386E7 /* ViewController.m in Sources */,
-				79D87C2A2021CD69005386E7 /* main.m in Sources */,
-				79D87C1C2021CD69005386E7 /* AppDelegate.m in Sources */,
+				79D87C5F2021D185005386E7 /* ViewController.m in Sources */,
+				79D87C6A2021D185005386E7 /* main.m in Sources */,
+				791A64082029C3E60005D63D /* ParkCollectionViewCell.m in Sources */,
+				79D87C5C2021D185005386E7 /* AppDelegate.m in Sources */,
+				791A64052029A4BD0005D63D /* ParkDetailViewController.m in Sources */,
+				791A640220297B4E0005D63D /* ParkListTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		79D87C202021CD69005386E7 /* Main.storyboard */ = {
+		79D87C602021D185005386E7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79D87C212021CD69005386E7 /* Base */,
+				79D87C612021D185005386E7 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		79D87C252021CD69005386E7 /* LaunchScreen.storyboard */ = {
+		79D87C652021D185005386E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				79D87C262021CD69005386E7 /* Base */,
+				79D87C662021D185005386E7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -170,7 +188,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		79D87C2B2021CD69005386E7 /* Debug */ = {
+		79D87C6B2021D185005386E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		79D87C2C2021CD69005386E7 /* Release */ = {
+		79D87C6C2021D185005386E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -274,13 +292,14 @@
 			};
 			name = Release;
 		};
-		79D87C2E2021CD69005386E7 /* Debug */ = {
+		79D87C6E2021D185005386E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QX9U53DC4;
 				INFOPLIST_FILE = TaipeiParkC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snowow.TaipeiParkC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,13 +307,14 @@
 			};
 			name = Debug;
 		};
-		79D87C2F2021CD69005386E7 /* Release */ = {
+		79D87C6F2021D185005386E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QX9U53DC4;
 				INFOPLIST_FILE = TaipeiParkC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snowow.TaipeiParkC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -305,25 +325,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		79D87C122021CD69005386E7 /* Build configuration list for PBXProject "TaipeiParkC" */ = {
+		79D87C522021D185005386E7 /* Build configuration list for PBXProject "TaipeiParkC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79D87C2B2021CD69005386E7 /* Debug */,
-				79D87C2C2021CD69005386E7 /* Release */,
+				79D87C6B2021D185005386E7 /* Debug */,
+				79D87C6C2021D185005386E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		79D87C2D2021CD69005386E7 /* Build configuration list for PBXNativeTarget "TaipeiParkC" */ = {
+		79D87C6D2021D185005386E7 /* Build configuration list for PBXNativeTarget "TaipeiParkC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				79D87C2E2021CD69005386E7 /* Debug */,
-				79D87C2F2021CD69005386E7 /* Release */,
+				79D87C6E2021D185005386E7 /* Debug */,
+				79D87C6F2021D185005386E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 79D87C0F2021CD69005386E7 /* Project object */;
+	rootObject = 79D87C4F2021D185005386E7 /* Project object */;
 }
