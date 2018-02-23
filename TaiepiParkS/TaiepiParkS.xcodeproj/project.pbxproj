@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7976C87120340BE00095DB0C /* ParkListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7976C87020340BE00095DB0C /* ParkListTableViewCell.swift */; };
+		7976C873203ED4650095DB0C /* ParkDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7976C872203ED4650095DB0C /* ParkDetailViewController.swift */; };
+		7976C87520408EA90095DB0C /* ParkCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7976C87420408EA90095DB0C /* ParkCollectionViewCell.swift */; };
 		79D87C3D2021CD88005386E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D87C3C2021CD88005386E7 /* AppDelegate.swift */; };
 		79D87C3F2021CD88005386E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D87C3E2021CD88005386E7 /* ViewController.swift */; };
 		79D87C422021CD88005386E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79D87C402021CD88005386E7 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7976C87020340BE00095DB0C /* ParkListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkListTableViewCell.swift; sourceTree = "<group>"; };
+		7976C872203ED4650095DB0C /* ParkDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailViewController.swift; sourceTree = "<group>"; };
+		7976C87420408EA90095DB0C /* ParkCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkCollectionViewCell.swift; sourceTree = "<group>"; };
 		79D87C392021CD88005386E7 /* TaiepiParkS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaiepiParkS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79D87C3C2021CD88005386E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		79D87C3E2021CD88005386E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +60,9 @@
 		79D87C3B2021CD88005386E7 /* TaiepiParkS */ = {
 			isa = PBXGroup;
 			children = (
+				7976C872203ED4650095DB0C /* ParkDetailViewController.swift */,
+				7976C87420408EA90095DB0C /* ParkCollectionViewCell.swift */,
+				7976C87020340BE00095DB0C /* ParkListTableViewCell.swift */,
 				79D87C3C2021CD88005386E7 /* AppDelegate.swift */,
 				79D87C3E2021CD88005386E7 /* ViewController.swift */,
 				79D87C402021CD88005386E7 /* Main.storyboard */,
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7976C87520408EA90095DB0C /* ParkCollectionViewCell.swift in Sources */,
 				79D87C3F2021CD88005386E7 /* ViewController.swift in Sources */,
+				7976C873203ED4650095DB0C /* ParkDetailViewController.swift in Sources */,
+				7976C87120340BE00095DB0C /* ParkListTableViewCell.swift in Sources */,
 				79D87C3D2021CD88005386E7 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QX9U53DC4;
 				INFOPLIST_FILE = TaiepiParkS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snowow.TaiepiParkS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +305,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7QX9U53DC4;
 				INFOPLIST_FILE = TaiepiParkS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.snowow.TaiepiParkS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
