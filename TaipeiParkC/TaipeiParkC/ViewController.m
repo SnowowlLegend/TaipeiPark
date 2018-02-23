@@ -39,16 +39,13 @@
 
 @implementation ViewController
 
+@synthesize selectedIndexPath = _selectedIndexPath;
+
 - (void)setATableView:(UITableView *)aTableView
 {
     _aTableView = aTableView;
     self.aTableView.dataSource = self;
     self.aTableView.delegate = self;
-}
-
-- (void)setSelectedIndexPath:(NSIndexPath *)selectedIndexPath
-{
-    _selectedIndexPath = selectedIndexPath;
 }
 
 - (void)viewDidLoad {
@@ -131,7 +128,7 @@ didReceiveResponse:(NSURLResponse *)response
         
         //NSLog(@"didCompleteWithError data: %@", jsonString);
         
-        [self processNsave:jsonString];
+        [self parseNprocess:jsonString];
 
     }
 }
@@ -139,7 +136,7 @@ didReceiveResponse:(NSURLResponse *)response
 
 #pragma mark - Parsing JSON Data
 
-- (void)processNsave:(NSString*)jsonString {
+- (void)parseNprocess:(NSString*)jsonString {
     NSData *jsonData = [jsonString dataUsingEncoding:NSUTF8StringEncoding];
     id json = [NSJSONSerialization JSONObjectWithData:jsonData options:0 error:nil];
     
@@ -148,7 +145,6 @@ didReceiveResponse:(NSURLResponse *)response
     sectionArray = [[NSMutableArray alloc] init];
     tableviewArray = [[NSMutableArray alloc] init];
     
-    //nearbyviewArray = [[NSMutableArray alloc] init];
     NSDictionary *result = [json objectForKey:@"result"];
     
     NSArray *results = [result objectForKey:@"results"];
@@ -161,6 +157,8 @@ didReceiveResponse:(NSURLResponse *)response
         [sectionArray addObject:currentItem];
         
         NSMutableArray *nearbyArray = [[NSMutableArray alloc] init];
+        
+        __block int nLoadedImageCount = 0;
         
         for (NSDictionary *item in results) {
             NSString *imageURL = [[item objectForKey:@"Image"] description];
@@ -190,7 +188,11 @@ didReceiveResponse:(NSURLResponse *)response
                         [cellItem setObject:image forKey:@"thumbImage"];
                         nThumbCount++;
                         
-                        if (nThumbCount > 10) {
+                        if (nThumbCount % 10 == 0) {
+                            nLoadedImageCount = nThumbCount;
+                        }
+                        
+                        if (nThumbCount - nLoadedImageCount >= 10) {
                             [self reloadTableView];
                         }
                     }
@@ -198,7 +200,6 @@ didReceiveResponse:(NSURLResponse *)response
             });
             
             NSString *currentParkName = [[currentItem objectForKey:@"ParkName"] description];
-            //NSString *currentName = [[currentItem objectForKey:@"Name"] description];
             
             if ([parkName isEqualToString:currentParkName]) {
                 [nearbyArray addObject:cellItem];
